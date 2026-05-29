@@ -1,0 +1,16 @@
+{
+  "name": "douyin-launcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node local-server.js",
+    "check": "node --check api/douyin.js && node --check api/fourmeme.js && node --check api/thumb.js && node --check local-server.js"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
